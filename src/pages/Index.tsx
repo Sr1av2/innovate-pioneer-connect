@@ -1,4 +1,3 @@
-
 import { Button } from '@/components/ui/button';
 import { ArrowRight, Users, Target, Globe, Award, Shield, TrendingUp } from 'lucide-react';
 import { Link } from 'react-router-dom';
@@ -95,8 +94,25 @@ const Index = () => {
         </div>
       </section>
 
-      {/* About Section */}
+      {/* Founder Section */}
       <section className="py-16 bg-gray-50">
+        <div className="container mx-auto px-6">
+          <div className="text-center">
+            <h2 className="text-3xl md:text-4xl font-bold text-gray-800 mb-8">Meet Our Founder</h2>
+            <div className="max-w-md mx-auto">
+              <img 
+                src="/lovable-uploads/ab906384-d562-43bf-ad8c-f0d8d55e7e20.png" 
+                alt="Founder MUNI PRASHANTH JEGILETI"
+                className="w-64 h-80 object-cover rounded-lg shadow-lg mx-auto mb-4"
+              />
+              <p className="text-xl font-semibold text-gray-800">Founder: MUNI PRASHANTH JEGILETI</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* About Section */}
+      <section className="py-16 bg-white">
         <div className="container mx-auto px-6">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div>
@@ -147,7 +163,7 @@ const Index = () => {
       </section>
 
       {/* Why Choose Us Section */}
-      <section className="py-16 bg-white">
+      <section className="py-16 bg-gray-50">
         <div className="container mx-auto px-6">
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-800 mb-4">
