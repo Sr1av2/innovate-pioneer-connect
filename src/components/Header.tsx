@@ -22,11 +22,12 @@ const Header = () => {
       <div className="container mx-auto px-6">
         <div className="flex items-center justify-between py-4">
           {/* Logo */}
-          <Link to="/" className="flex items-center space-x-2">
-            <div className="bg-blue-600 text-white w-10 h-10 rounded-lg flex items-center justify-center font-bold text-xl">
-              IP
-            </div>
-            <span className="text-xl font-bold text-gray-800">Innovate Pioneer</span>
+          <Link to="/" className="flex items-center">
+            <img 
+              src="/lovable-uploads/b9ab9d17-77af-45c8-979f-a1638264894d.png" 
+              alt="Innovate Pioneer Logo" 
+              className="h-12 w-12 rounded-full"
+            />
           </Link>
 
           {/* Desktop Navigation */}
