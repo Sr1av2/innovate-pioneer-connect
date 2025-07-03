@@ -120,7 +120,14 @@ const Contact = () => {
             {/* Contact Information */}
             <div className="space-y-8">
               <div className="bg-white rounded-lg shadow-lg p-8">
-                <h2 className="text-2xl font-bold text-gray-800 mb-6">Get in Touch</h2>
+                <div className="flex items-center space-x-3 mb-6">
+                  <img 
+                    src="/lovable-uploads/b9ab9d17-77af-45c8-979f-a1638264894d.png" 
+                    alt="Innovate Pioneer Logo" 
+                    className="h-10 w-10 rounded-full"
+                  />
+                  <h2 className="text-2xl font-bold text-gray-800">Get in Touch</h2>
+                </div>
                 <div className="space-y-6">
                   <div className="flex items-start space-x-4">
                     <div className="bg-blue-100 p-3 rounded-full">
@@ -152,11 +159,18 @@ const Contact = () => {
                 </div>
               </div>
 
-              {/* Map */}
+              {/* Office Image */}
               <div className="bg-white rounded-lg shadow-lg p-4">
+                <img 
+                  src="https://images.unsplash.com/photo-1518005020951-eccb494ad742?auto=format&fit=crop&w=800&h=400" 
+                  alt="Modern office building representing Innovate Pioneer's professional environment"
+                  className="w-full h-48 object-cover rounded-lg mb-4"
+                />
                 <div className="bg-gray-200 h-64 rounded-lg flex items-center justify-center">
-                  <p className="text-gray-600">Google Maps Embed</p>
-                  <p className="text-sm text-gray-500 ml-2">(Madhapur, Hyderabad)</p>
+                  <div className="text-center">
+                    <p className="text-gray-600 font-medium">Google Maps Embed</p>
+                    <p className="text-sm text-gray-500">(Madhapur, Hyderabad)</p>
+                  </div>
                 </div>
               </div>
             </div>
