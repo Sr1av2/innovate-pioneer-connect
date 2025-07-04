@@ -1,3 +1,4 @@
+
 import { Button } from '@/components/ui/button';
 import { ArrowRight, Users, Target, Globe, Award, Shield, TrendingUp } from 'lucide-react';
 import { Link } from 'react-router-dom';
@@ -103,7 +104,7 @@ const Index = () => {
               <img 
                 src="/lovable-uploads/ab906384-d562-43bf-ad8c-f0d8d55e7e20.png" 
                 alt="Founder MUNI PRASHANTH JEGILETI"
-                className="w-64 h-80 object-cover rounded-lg shadow-lg mx-auto mb-4"
+                className="w-72 h-96 object-contain rounded-lg shadow-lg mx-auto mb-4 bg-white p-2"
               />
               <p className="text-xl font-semibold text-gray-800">Founder: MUNI PRASHANTH JEGILETI</p>
             </div>
